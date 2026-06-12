@@ -1,20 +1,35 @@
-# 🎓 Automated Student Admission & Analytics System
 
-A robust Python command-line application designed to automate the university admission process. This project handles data validation, multi-department logic (Engineering, Medical, CS), and provides real-time analytics on admission trends.
+# 🎓 Automated Admission Analytics System
 
-## 🚀 Features
-- *Smart Validation:* Uses try-except blocks to handle invalid user inputs.
-- *Department-Specific Logic:* Custom criteria for different academic streams.
-- *Data Persistence:* Saves all records to a local database file with timestamps.
-- *Analytics Dashboard:* Calculates success rates, total approvals, and rejections.
-- *Detailed Feedback:* Provides specific reasons for application rejection.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Analytics](https://img.shields.io/badge/Logic-Analytics-red?style=for-the-badge)
+![SDD](https://img.shields.io/badge/Process-Spec--Driven-green?style=for-the-badge)
 
-## 🛠️ Technologies Used
-- *Language:* Python 3.x
-- *Modules:* os, datetime
-- *Concepts:* File Handling, Error Handling, Logic Building, Modular Programming.
+An advanced university admission portal featuring automated eligibility analytics, logical filtering, and data persistence. This system streamlines the evaluation of student credentials against departmental requirements using high-level Python logic.
 
-## 📂 How to Run
-1. Clone the repository.
-2. Run python automated_admission_analytics.py.
-3. Follow the on-screen menu to add students or view reports.
+## 🚀 Overview
+This system is designed to handle high-volume student data, applying complex eligibility rules (Engineering vs. Medical) instantly. It emphasizes clean code and efficient data structures (Dictionaries/Lists) to ensure performance.
+
+## ✨ Features
+- **Smart Filtering:** Automatic sorting of applicants based on merit and department choice.
+- **Eligibility Analytics:** Instant validation of pre-requisites (Marks, Subjects, Age).
+- **Error Handling:** Robust protection against invalid user inputs and data corruption.
+- **Data Persistence:** Stores student records for historical analytics.
+
+## 💻 Tech Stack
+- **Language:** Python
+- **Core Modules:** `json`, `os`, `sys`
+- **Design Pattern:** Spec-Driven Logic
+
+## 🛠 Setup & Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hafizabdulaziz/automated-admission-analytics-system.git
+   ```
+2. Run the analyzer:
+   ```bash
+   python admission_analyzer.py
+   ```
+
+---
+<p align="center">Part of the <a href="https://github.com/hafizabdulaziz">AI-Native Developer Portfolio</a> by Abdul Aziz</p>
