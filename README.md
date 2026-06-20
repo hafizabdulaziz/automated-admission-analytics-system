@@ -1,5 +1,5 @@
 
-# 🎓 Automated Admission Analytics System
+# Admission Data Analytics Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Analytics](https://img.shields.io/badge/Logic-Analytics-red?style=for-the-badge)
